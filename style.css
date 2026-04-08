@@ -234,11 +234,17 @@ header, footer {
     filter: brightness(1.2);
 }
 
-/* Mobile */
+* Mobile */
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
         text-align: center;
+        background-attachment: fixed;
+        background: url("your-background.jpg") no-repeat center center/cover;
+        background-image: url("background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
 
