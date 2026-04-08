@@ -233,3 +233,18 @@ header, footer {
     margin-bottom: 20px;
     filter: brightness(1.2);
 }
+
+/* Mobile */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .container {
+        width: 95%;
+    }
+}
